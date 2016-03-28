@@ -1,1 +1,1 @@
-# seo_generator
+The seo generator
