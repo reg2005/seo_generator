@@ -1,0 +1,28 @@
+{
+  "name": "reg2005/seo_generator",
+  "description": "Simple generator keywords and description from Russian text",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": ["seo", "keywords", "tags"],
+  "homepage": "https://github.com/reg2005/seo_generator",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/reg2005/seo_generator"
+    }
+  ],
+  "require-dev": {
+  },
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    	"psr-0": {
+			"seo_generator": ".."
+    },
+    "files": [
+		"seo_generator.php"
+    ]
+  }
+}
